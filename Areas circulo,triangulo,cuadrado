@@ -1,0 +1,7 @@
+altura = float (input("Ingrese el valor de la altura: "))
+base = float (input("Ingrese el valor de la base: "))
+radio = float (input("Ingrese el valor para el radio radio: "))
+print ("/////////////////////////////////////////////////////////////")
+print ("Segun sus valores el area para un triangulo es: ",base*altura/2)
+print ("Segun sus valores el area para un cuadrado es: ",altura*altura)
+print ("Segun sus valores el area para un circulo es: ",3.14*radio**2)
