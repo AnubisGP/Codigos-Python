@@ -1,0 +1,5 @@
+string = "Tengo un chingo de hambre"
+print (string[:8])#Lee las primeras 8 letras
+print (string[8:])#Lee las ultimas 8 letras
+print (string[:])#Lee toda la frase
+print (string[::-1])#Lee la frase al reves
