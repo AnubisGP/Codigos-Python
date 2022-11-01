@@ -1,0 +1,13 @@
+Lugares = ['Pentagono','Coliseo','Canal Panama','Mesa','Piramides'] 
+print (Lugares)
+OA = sorted(Lugares)
+print ("Los lugares en orden alfabetico", OA)
+OAR = sorted(Lugares, reverse=True)
+print ("Los lugares en orden alfabetico al revés", OAR) 
+print ("Lista original", Lugares)
+Lugares.reverse()
+print("Lista original en desorden", Lugares)
+Lugares.reverse()
+print ("Lista original en orden", Lugares)
+Lugares.sort()
+print ("Lista original el orden", Lugares)
