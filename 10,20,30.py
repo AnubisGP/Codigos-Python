@@ -8,7 +8,7 @@ for i in range(1,10,1):
     if lis > 10 and lis < 20:
         z += 1 
         y = y+lis
-    elif lis < 30:
+    elif lis > 30:
         x += 1
 promedio= x/(z-1)
 print ("El promedio es: ",y )
